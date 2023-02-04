@@ -1,0 +1,14 @@
+class Car:
+    
+    def __init__(self, color, tupe, year, start, offengine):
+        self.color = color
+        self.tupe = tupe
+        self.year = year
+        self.start = start
+        self.offengine = offengine
+        
+    def display_info(self):
+        print(f"Type: {self.tupe}  Color: {self.color} Year: {self.year} Start {self.start} Turn off the engine {self.offengine}")
+    
+car = Car("red", "sport", 1990 , "start engine", "Turn off the engine")
+car.display_info()  # Sport: Red:  Year: 1990 Start: Start engine: Turn off the engine:
